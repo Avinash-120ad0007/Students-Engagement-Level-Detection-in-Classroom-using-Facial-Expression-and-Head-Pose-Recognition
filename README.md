@@ -25,14 +25,20 @@ Using the AFLW 2000 dataset, a Support Vector Regression (SVR) model was trained
 
 Each student's emotion and head pose are assigned a weight to calculate their concentration index.
 The average concentration index of the entire class is computed for each frame and can be aggregated over the whole lecture.
-Datasets Used
+
+
+𝘿𝙖𝙩𝙖𝙨𝙚𝙩𝙨 𝙐𝙨𝙚𝙙
 
 𝑭𝒂𝒄𝒊𝒂𝒍 𝑬𝒎𝒐𝒕𝒊𝒐𝒏 𝑹𝒆𝒄𝒐𝒈𝒏𝒊𝒕𝒊𝒐𝒏:
 
-Model is trained using the RAFDB Dataset Dataset Link.
-Model architecture based on the MaNet research paper Paper Link.
+Model is trained using the RAFDB Dataset
+Model architecture based on the MaNet research paper 
+Dataset Link- https://www.kaggle.com/datasets/shuvoalok/raf-db-dataset
+Paper Link - https://ieeexplore.ieee.org/document/9474949
+Paper Name : Learning Deep Global Multi-Scale and Local Attention Features for Facial Expression Recognition in the Wild
 
 𝑯𝒆𝒂𝒅 𝑷𝒐𝒔𝒆 𝑬𝒔𝒕𝒊𝒎𝒂𝒕𝒊𝒐𝒏:
 
-Model is trained using the AFLW 2000 Dataset Dataset Link.
+Model is trained using the AFLW 2000 Dataset
 Key facial landmarks were used to capture x, y, z coordinates for training the SVR model.
+Dataset Link- https://www.kaggle.com/datasets/mohamedadlyi/aflw2000-3d
