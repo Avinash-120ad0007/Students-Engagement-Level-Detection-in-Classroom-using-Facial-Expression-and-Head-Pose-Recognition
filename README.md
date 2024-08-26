@@ -1,7 +1,8 @@
 This project aims to analyze the engagement levels of students during classroom lectures by processing video footage. By utilizing advanced computer vision techniques, we determine the concentration levels of students based on their facial emotions and head poses.
 
-Process Overview
-Video Frame Extraction:
+𝐏𝐫𝐨𝐜𝐞𝐬𝐬 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰:
+
+𝑽𝒊𝒅𝒆𝒐 𝑭𝒓𝒂𝒎𝒆 𝑬𝒙𝒕𝒓𝒂𝒄𝒕𝒊𝒐𝒏:
 
 The classroom lecture video is divided into individual frames.
 Face Detection Using MTCNN:
